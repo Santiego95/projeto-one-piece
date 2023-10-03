@@ -40,7 +40,7 @@
     main .personagem .imagem {
         height: auto;
     }
-
+   
     .conteudo .logo {
         width: 170px;
         height: 75px;
@@ -50,6 +50,10 @@
         top: -30%;
     }
 
+    .conteudo .descricao{
+        height: 150px;
+    }
+
     .conteudo .nome-personagem {
         font-size: 24px;
     }
@@ -57,6 +61,38 @@
     .botoes {
         padding: 20px;
         top: -20%;
+    }
+
+    .botoes .botao img {
+        max-width: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    main .personagem .imagem {
+        height: auto;
+    }
+   
+    .conteudo .logo {
+        width: 170px;
+        height: 75px;
+    }
+
+    .conteudo {
+        top: -30%;
+    }
+
+    .conteudo .descricao{
+        height: 100px;
+    }
+
+    .conteudo .nome-personagem {
+        font-size: 24px;
+    }
+
+    .botoes {
+        padding: 20px;
+        top: -10%;
     }
 
     .botoes .botao img {
